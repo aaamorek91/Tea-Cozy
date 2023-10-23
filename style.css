@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;1,300&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* Body background color, font size and font family added to whole site*/
+body {
+	background-color: #000;
+	color: seashell;
+	opacity: 0.9;
+	font-size: 22px;
+	/*font-family: "Nunito Sans", sans-serif;*/
+}
+/* header container */
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	background-color: #000;
+	width: 100%;
+}
+
+/* LOGO position */
+#logo {
+	padding-left: 10px;
+	height: 50px;
+	padding-top: 15px;
+}
+
+/* Nav positioning */
+.nav-links,
+li {
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+/* a links hover effect */
+a:visited {
+	color: seashell;
+}
+
+a:hover {
+	color: #fff;
+	opacity: 0.8;
+}
+
+li,
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Hero IMG */
+figure {
+	width: 1200px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Banner positioning top*/
+figure,
+h2 {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+/* Banner positioning bottom*/
+figure,
+h4 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* H2 and H4 positioning */
+.hero-container {
+	text-align: center;
+	background-color: #000;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1200px;
+}
+
+hero-header {
+	margin: 0px;
+}
+
+/* H2 and H4 positioning in section */
+section {
+	padding: 50px;
+	text-align: center;
+	margin-top: 100px;
+	line-height: 20px;
+}
+
+/* image size h-200px, w-300px */
+#img1 {
+	width: 300px;
+	height: 200px;
+}
+
+#img2 {
+	width: 300px;
+	height: 200px;
+}
+
+#img3 {
+	width: 300px;
+	height: 200px;
+}
+
+#img4 {
+	width: 300px;
+	height: 200px;
+}
+#img5 {
+	width: 300px;
+	height: 200px;
+}
+
+/* flex container positioning of images */
+#flex-container {
+	display: flex;
+	width: 1000px;
+	text-align: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+/* Location img container */
+.location-container {
+	height: 500px;
+	width: 1200px;
+}
+
+/* position for parent container of 3 black boxes */
+.flex-container2 {
+	display: flex;
+	height: 500px;
+	width: 1000px;
+	text-align: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+}
+
+/* child containers position */
+.location-box {
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 160%;
+}
+
+/* black boxes position and style */
+.location-box1,
+.location-box2,
+.location-box3 {
+	background-color: #000;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	padding-top: 30px;
+}
+
+/* Location text positioning and style */
+.location {
+	padding: 110px;
+	position: absolute;
+	font-size: 60px;
+}
+
+/* text inside boxes styler and position */
+h3 {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.text {
+	font-size: 25px;
+	line-height: 50px;
+	padding: 2px;
+}
+
+/* footer */
+
+footer {
+	margin-right: auto;
+	margin-left: auto;
+}
+/* */
+#contact {
+	width: 1200px;
+	height: 200px;
+	padding: 40px;
+	position: relative;
+	text-align: center;
+	margin-top: 350px;
+}
+
+#copy {
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 10px;
+}
